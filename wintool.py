@@ -94,9 +94,9 @@ class WinToolApp(ctk.CTk):
 
         self.add_action_button(self.page_security, "🛡️", "Windows Security", "Check Windows Security", ACCENT, ACCENT_HOVER, lambda: self.run_cmd(["start", "windowsdefender:"]))
         self.add_action_button(self.page_security, "📦", "Windows Update", "Check update settings", ACCENT, ACCENT_HOVER, lambda: self.run_cmd(["start", "ms-settings:windowsupdate"]))
-        self.add_action_button(self.page_security, "🧹", "Temp Folder", "Open temporary files folder", ACCENT, ACCENT_HOVER, lambda: self.run_cmd(["explorer", "temp"]))
-        self.add_action_button(self.page_security, "🧹", "%temp% Folder", "Open AppData temp folder", ACCENT, ACCENT_HOVER, lambda: self.run_cmd(["explorer", "shell:local appdata\\temp"]))
-        self.add_action_button(self.page_security, "🧹", "Prefetch Folder", "Open Prefetch folder", ACCENT, ACCENT_HOVER, lambda: self.run_cmd(["explorer", "C:\\Windows\\Prefetch"]))
+        self.add_action_button(self.page_security, "🧹", "Temp Folder", "Delete temporary files", ACCENT, ACCENT_HOVER, lambda: self.run_cmd(["explorer", "temp"]))
+        self.add_action_button(self.page_security, "🧹", "%temp% Folder", "Delete AppData temp files", ACCENT, ACCENT_HOVER, lambda: self.run_cmd(["explorer", "shell:local appdata\\temp"]))
+        self.add_action_button(self.page_security, "🧹", "Prefetch Folder", "Delete Prefetch file", ACCENT, ACCENT_HOVER, lambda: self.run_cmd(["explorer", "C:\\Windows\\Prefetch"]))
         self.add_action_button(self.page_security, "🧹", "Disk Cleanup", "Clean up drive using cleanmgr", ACCENT, ACCENT_HOVER, lambda: self.run_cmd(["cleanmgr"]))
 
         # PAGE 2: Hardware & Device Control
