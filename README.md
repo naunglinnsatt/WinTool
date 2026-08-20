@@ -4,11 +4,47 @@ WinTool သည် Windows System Control Panel များ၊ Administrative To
 
 ---
 
-## 🚀 Download & Installation
+🚀 Download & Installation
+Option 1: Executable (.exe) ကို တိုက်ရိုက် သုံးရန် (အလွယ်ဆုံး)
+Python Install လုပ်ထားရန် မလိုဘဲ အသုံးပြုနိုင်ပါသည်။
 
-### Portable (.exe) ကို တိုက်ရိုက် သုံးရန်
+GitHub Releases သို့ သွားပါ။
 
- `wintool.exe` ကို Download ရယူ၍ တိုက်ရိုက် Run နိုင်ပါသည်။
+နောက်ဆုံးထွက် wintool.exe ကို Download ရယူပါ။
+
+Double-click နှိပ်၍ တိုက်ရိုက် စတင်အသုံးပြုနိုင်ပါသည်။
+
+Option 2: Source Code မှတစ်ဆင့် Run ရန်
+Pre-requisites
+Python 3.10 သို့မဟုတ် အထက်
+
+CustomTkinter Library
+
+Setup & Execution
+Repository ကို Clone လုပ်ပါ:
+
+Bash
+git clone https://github.com/naunglinnsatt/WinTool.git
+cd WinTool
+Virtual Environment ဆောက်၍ Activate လုပ်ပါ:
+
+PowerShell
+python -m venv wintool_venv
+.\wintool_venv\Scripts\Activate.ps1
+Required Libraries များကို Install လုပ်ပါ:
+
+PowerShell
+pip install customtkinter
+Application ကို Run ပါ:
+
+PowerShell
+python wintool.py
+🛠️ Built With
+Python - Core Programming Language
+
+CustomTkinter - Modern GUI Framework
+
+PyInstaller - Executable Packaging
 
 ---
 
