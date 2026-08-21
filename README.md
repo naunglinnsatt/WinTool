@@ -5,6 +5,7 @@ WinTool သည် Windows System Control Panel များ၊ Administrative To
 ---
 
 🚀 Download & Installation
+
 Option 1: Executable (.exe) ကို တိုက်ရိုက် သုံးရန် (အလွယ်ဆုံး)
 Python Install လုပ်ထားရန် မလိုဘဲ အသုံးပြုနိုင်ပါသည်။
 
